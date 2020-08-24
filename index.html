@@ -33,6 +33,13 @@
         <p>Currently my interests lie in natural language processing.</p>
 
         <h2>Learning Log</h2>
+        <ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
 
       </section>
     </div>
