@@ -87,16 +87,16 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #e5e5e5;
+  border-bottom:1px solid #dfe1ff;
 }
 
 dt {
-  color:#F8F8FF;
+  color:#dfe1ff;
   font-weight:500;
 }
 
 th {
-  color:#F8F8FF;
+  color:#dfe1ff;
 }
 
 img {
