@@ -1,20 +1,20 @@
 body {
   background-color: #F8F9FA;
   padding:50px;
-  font-family:"Work Sans", sans-serif, !important;
+  font-family:Work Sans, sans-serif;
   color:#000851;
   line-height: 1.5;
   font-weight:400;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Comic Sans MS", sans-serif, !important;
+  font-family: Work Sans, sans-serif;
   color:#000851;
   margin:0 0 20px;
 }
 
 p, ul, ol, table, pre, dl {
-  font-family: "Work Sans", sans-serif, !important;
+  font-family: Work Sans, sans-serif;
   color: #000851;
   font-size: 14px;
   margin:0 0 20px;
@@ -27,7 +27,7 @@ h1, h2, h3 {
 h1 {
   font-size:28px;
   color:#000851;
-  font-family:"Comic Sans MS", sans-serif, !important;
+  font-family: Work Sans, sans-serif;
   font-weight: 400;
 }
 
@@ -87,16 +87,16 @@ table {
 th, td {
   text-align:left;
   padding:5px 10px;
-  border-bottom:1px solid #dfe1ff;
+  border-bottom:1px solid #ffffff;
 }
 
 dt {
-  color:#dfe1ff;
+  color:#ffffff;
   font-weight:500;
 }
 
 th {
-  color:#dfe1ff;
+  color:#ffffff;
 }
 
 img {
@@ -123,7 +123,7 @@ header ul {
 header li {
   width:89px;
   float:left;
-  border-right:1px solid #5654a4;
+  border-right:1px solid #dfe1ff;
   height:40px;
 }
 
@@ -137,11 +137,12 @@ header li:last-child a {
 
 header ul a {
   line-height:1;
-  font-size:11px;
-  color:#dfe1ff;
+  font-family: inherit;
+  font-size:14px;
+  color:#ffffff;
   display:block;
   text-align:center;
-  padding-top:6px;
+  padding-top:12px;
   height:34px;
 }
 
@@ -154,7 +155,7 @@ header ul a:active {
 }
 
 strong {
-  color:#222;
+  color:#ffffff;
   font-weight:500;
 }
 
@@ -166,7 +167,7 @@ header ul li + li + li {
 header ul a strong {
   font-size:14px;
   display:block;
-  color:#222;
+  color:#ffffff;
 }
 
 section {
