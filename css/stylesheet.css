@@ -187,13 +187,17 @@ hr {
   margin:0 0 20px;
 }
 
-footer {
+
+.footer {
   width:270px;
-  float:left;
-  position:fixed;
-  bottom:50px;
+  float:center;
+  margin-left:150px;
+  position: fixed;
+  bottom:0px;
+  text-align: center;
   -webkit-font-smoothing:subpixel-antialiased;
 }
+
 
 @media print, screen and (max-width: 960px) {
 
