@@ -66,13 +66,6 @@ a:hover small {
   margin:0 auto;
 }
 
-blockquote {
-  border-left:1px solid #F8F8FF;
-  margin:0;
-  padding:0 0 0 20px;
-  font-style:italic;
-}
-
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, Consolas, Liberation Mono, DejaVu Sans Mono, Courier New, monospace;
   color:#333;
@@ -98,12 +91,12 @@ th, td {
 }
 
 dt {
-  color:#444;
+  color:#F8F8FF;
   font-weight:500;
 }
 
 th {
-  color:#444;
+  color:#F8F8FF;
 }
 
 img {
