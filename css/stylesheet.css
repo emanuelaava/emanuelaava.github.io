@@ -8,7 +8,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Work Sans", sans-serif, !important;
+  font-family: "Comic Sans MS", sans-serif, !important;
   color:#000851;
   margin:0 0 20px;
 }
@@ -27,7 +27,7 @@ h1, h2, h3 {
 h1 {
   font-size:28px;
   color:#000851;
-  font-family:"Work Sans", sans-serif, !important;
+  font-family:"Comic Sans MS", sans-serif, !important;
   font-weight: 400;
 }
 
