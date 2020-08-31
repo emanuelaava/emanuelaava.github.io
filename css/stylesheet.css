@@ -151,7 +151,7 @@ header ul a:hover {
 }
 
 header ul a:active {
-  background-color:#f0f0f0;
+  background-color:#F8F8FF;
 }
 
 strong {
@@ -182,7 +182,7 @@ small {
 
 hr {
   border:0;
-  background:#e5e5e5;
+  background:#F8F8FF;
   height:1px;
   margin:0 0 20px;
 }
