@@ -36,6 +36,49 @@ h2 {
   font-weight: 400;
 }
 
+/* ul {
+  list-style:none;
+}
+
+section ul li {
+  height:20px;
+  width:40px;
+  float:left;
+  padding:12px;
+  text-align:center;
+  background: #fff;
+  border-radius:0px;
+  border:1px solid #f8f9fa;
+  border-right:5px solid #f8f9fa;
+}
+
+secion ul li:first-child a {
+  border-radius:5px 0 0 5px;
+}
+
+section ul li:last-child a {
+  border-radius:0 5px 5px 0;
+}
+
+section ul li a {
+  line-height:0;
+  font-family: inherit;
+  font-size:14px;
+  color:#fff;
+  display: embed;
+  text-align:center;
+  padding-top:5px;
+  height:20px;
+}
+
+section ul li:hover {
+  color:#999;
+}
+
+section ul li:active {
+  background-color:#F8F8FF;
+} */
+
 h3, h4, h5, h6 {
   color:#000851;
   font-weight: 400;
@@ -62,8 +105,8 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
-  margin:0 auto;
+  width:890px;
+  margin:0 90px;
 }
 
 code, pre {
@@ -104,38 +147,45 @@ img {
 }
 
 header {
-  width:270px;
+  width:320px;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-header ul {
+header ul li {
   list-style:none;
-  height:40px;
-  padding:0;
-  background: #5654a4;
-  border-radius:5px;
-  border:1px solid #5654a4;
-  width:270px;
-}
-
-header li {
-  width:89px;
+  margin-left: -45px;
+  margin-right: 45px;
   float:left;
-  border-right:1px solid #dfe1ff;
   height:40px;
+  width: 89px;
+  text-align: center;
+  padding:0;
+  background:#5654a4;
+  border-radius:10px;
+  border:1px solid #f8f9fa;
+  border-right:2px solid #f8f9fa;
 }
 
-header li:first-child a {
-  border-radius:5px 0 0 5px;
+header ul li + li + li {
+  border-right:none;
+  width:89px;
 }
 
-header li:last-child a {
-  border-radius:0 5px 5px 0;
+#ht {
+	float: none;
+	margin: 100px 100px 15px 0px;
+}
+#linkedin {
+	background:#2867B2;
 }
 
-header ul a {
+#github {
+	background: #333333;
+}
+
+header li a {
   line-height:1;
   font-family: inherit;
   font-size:14px;
@@ -146,28 +196,20 @@ header ul a {
   height:34px;
 }
 
-header ul a:hover {
+header li a:hover {
   color:#999;
 }
 
-header ul a:active {
+header li a:active {
   background-color:#F8F8FF;
 }
 
-strong {
-  color:#ffffff;
-  font-weight:500;
+header li:first-child a {
+  border-radius:5px 0 0 5px;
 }
 
-header ul li + li + li {
-  border-right:none;
-  width:89px;
-}
-
-header ul a strong {
-  font-size:14px;
-  display:block;
-  color:#ffffff;
+header li:last-child a {
+  border-radius:0 5px 5px 0;
 }
 
 section {
@@ -188,7 +230,7 @@ hr {
 }
 
 
-.footer {
+ footer {
   width:270px;
   float:center;
   margin-left:150px;
