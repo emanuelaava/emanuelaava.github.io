@@ -158,8 +158,8 @@ header ul li {
   margin-left: -45px;
   margin-right: 45px;
   float:left;
-  height:40px;
-  width: 89px;
+  height:36px;
+  width: 80px;
   text-align: center;
   padding:0;
   background:#5654a4;
@@ -170,7 +170,7 @@ header ul li {
 
 header ul li + li + li {
   border-right:none;
-  width:89px;
+  width:80px;
 }
 
 #ht {
@@ -188,7 +188,7 @@ header ul li + li + li {
 header li a {
   line-height:1;
   font-family: inherit;
-  font-size:14px;
+  font-size:13px;
   color:#ffffff;
   display:block;
   text-align:center;
